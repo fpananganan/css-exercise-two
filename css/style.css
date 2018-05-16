@@ -1,6 +1,33 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  background-color: #ffff;
+  color: #000000;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%
+}
+
+h1 {
+  font-weight: bold;
+  font-size:25px;
+  text-transform: capitalize;
+  line-height: 150%
+}
+
+h3 {
+  font-size: 16px;
+  text-transform: none;
+  line-height: 125%;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 125%
 }
 
 nav {
@@ -11,15 +38,13 @@ nav {
 }
 
 .logo {
+  backround: url(images/bloc-logo.png);
   margin: 20px;
   width: 100px;
 }
 
-.large-pic {
-  width: 100%;
-}
-
 .medium-pic {
+  background: url(images/instagram-pic.jpg);
   width: 70%;
 }
 
@@ -42,8 +67,19 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 article {
   padding-top: 100px;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+  color: #3F3FBF;
+  line-height: 150%;
 }
 
 .container {
